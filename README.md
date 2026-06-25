@@ -1,4 +1,4 @@
-# Andrés Rojas
+# Andres Rojas Mikheeva
 
 Graduado en Ingeniería del Software por la Universidad Técnica Estatal Bauman de Moscú.
 
