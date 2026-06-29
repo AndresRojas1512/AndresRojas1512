@@ -1,28 +1,31 @@
-# Andres Rojas Mikheeva
+# Andrés Rojas
 
-Graduado en Ingeniería del Software por la Universidad Técnica Estatal Bauman de Moscú.
+Graduado en Ingeniería de Software por la Universidad Estatal Técnica de Moscú N.E. Bauman.
 
-Formación y práctica académica en desarrollo de aplicaciones web, servicios backend, API REST, bases de datos relacionales, pruebas automatizadas y procesos de integración y despliegue continuo. Conocimientos de algoritmos, sistemas operativos, redes de computadores, modelado matemático y fundamentos de aprendizaje automático.
+Formación y práctica académica en desarrollo de aplicaciones web, servicios backend, API REST, bases de datos relacionales, tests automatizados y procesos de integración y despliegue continuo. Conocimientos de algoritmos, sistemas operativos, redes de computadores, modelado matemático y fundamentos de aprendizaje automático.
 
 ## Áreas técnicas
 
-- Desarrollo backend y frontend
-- Diseño e integración de API REST
-- Autenticación JWT y autorización basada en roles
-- Modelado y persistencia de datos
-- Pruebas unitarias, de integración y de extremo a extremo
-- Integración, despliegue y operación de aplicaciones
+- Desarrollo backend y frontend.
+- Diseño de API REST y arquitecturas distribuidas.
+- Modelado, persistencia y análisis de datos.
+- Autenticación JWT y autorización basada en roles.
+- Tests unitarios, de integración, E2E y de carga.
+- Integración, despliegue, observabilidad y operación de aplicaciones.
 
 ## Stack tecnológico
 
-- **Backend:** C#, .NET 8, ASP.NET Core y Entity Framework Core
-- **Frontend:** Angular, TypeScript, RxJS, HTML y CSS/SCSS
-- **Datos:** PostgreSQL y SQL
-- **Pruebas:** xUnit, Moq, Testcontainers y pruebas E2E
-- **Infraestructura:** Docker, Nginx, GitHub Actions y GitLab CI/CD
-- **Mensajería y observabilidad:** RabbitMQ, MassTransit, OpenTelemetry, Grafana y Prometheus
-- **Investigación:** Python y PyTorch
-- **Herramientas:** Git, GitLab, GitHub, Swagger y OpenAPI
+| Área | Tecnologías |
+| --- | --- |
+| Backend | C#, .NET 8, ASP.NET Core y Entity Framework Core |
+| Frontend | Angular, TypeScript, RxJS, HTML y CSS/SCSS |
+| Datos | PostgreSQL, SQL y Dapper |
+| Mensajería | RabbitMQ y MassTransit |
+| Tests y rendimiento | xUnit, Moq, FluentAssertions, Testcontainers, Respawn, k6 y WireMock |
+| Observabilidad | OpenTelemetry, Prometheus, Grafana, Jaeger, Loki y Promtail |
+| Infraestructura y CI/CD | Docker, Nginx, Consul, GitHub Actions y GitLab CI/CD |
+| Investigación | Python y PyTorch |
+| Herramientas | Git, GitLab, GitHub, Swagger y OpenAPI |
 
 ## Investigación académica
 
@@ -32,16 +35,16 @@ Trabajo de Fin de Grado sobre ponderación adaptativa de datos de entrenamiento 
 
 ### [MarketStat](https://github.com/AndresRojas1512/marketstat-server)
 
-Plataforma de análisis salarial desarrollada como proyecto académico en equipo.
+Backend para el análisis multidimensional de salarios en el mercado laboral ruso, desarrollado como proyecto académico en equipo. Incluye una implementación monolítica modular y variantes para arquitectura distribuida, rendimiento, alta disponibilidad e integración con servicios externos.
 
-- Filtrado multidimensional por ubicación, sector, puesto y periodo
-- Cálculo de medias, percentiles, distribuciones salariales y series temporales
-- API REST con autenticación JWT y autorización basada en roles
-- Persistencia en PostgreSQL mediante Entity Framework Core
-- Pruebas unitarias, de integración y de extremo a extremo
-- Entornos basados en Docker y pipelines de CI/CD
-- Trabajo experimental en microservicios, observabilidad y pruebas de carga
+- API REST con filtrado por ubicación, sector, puesto, nivel profesional y periodo, autenticación JWT y autorización por roles.
+- Cálculo de medias, percentiles, distribuciones salariales y series temporales sobre PostgreSQL.
+- Arquitectura distribuida con Gateway, Domain y Data, comunicación mediante RabbitMQ y MassTransit, y escalado horizontal con Nginx.
+- Replicación de PostgreSQL, registro de servicios con Consul, trazabilidad con OpenTelemetry y Jaeger, y centralización de logs con Loki, Promtail y Grafana.
+- Tests unitarios, de integración y E2E con xUnit, Moq, Testcontainers y Respawn, junto con benchmarks de Entity Framework Core y Dapper mediante k6, Prometheus y Grafana.
+- Exportación de informes JSON a almacenamiento compatible con S3 y validación E2E mediante WireMock.
+- Entornos Docker y automatización de compilación, tests y despliegue mediante GitHub Actions y GitLab CI/CD.
 
 ## Áreas de desarrollo
 
-Desarrollo de sistemas de software mantenibles y fiables, junto con la ampliación de conocimientos en arquitectura backend, pruebas automatizadas, prácticas DevOps y aprendizaje automático robusto.
+Desarrollo de sistemas de software mantenibles y fiables, con ampliación de conocimientos en arquitectura backend y distribuida, rendimiento, observabilidad, prácticas DevOps y aprendizaje automático robusto.
