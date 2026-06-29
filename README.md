@@ -1,4 +1,4 @@
-# Andrés Rojas
+# Andres Rojas Mikheeva
 
 Graduado en Ingeniería de Software por la Universidad Estatal Técnica de Moscú N.E. Bauman.
 
@@ -24,7 +24,7 @@ Formación y práctica académica en desarrollo de aplicaciones web, servicios b
 | Tests y rendimiento | xUnit, Moq, FluentAssertions, Testcontainers, Respawn, k6 y WireMock |
 | Observabilidad | OpenTelemetry, Prometheus, Grafana, Jaeger, Loki y Promtail |
 | Infraestructura y CI/CD | Docker, Nginx, Consul, GitHub Actions y GitLab CI/CD |
-| Investigación | Python y PyTorch |
+| Investigación | Python y PyTorch | scikit-learn | Pandas
 | Herramientas | Git, GitLab, GitHub, Swagger y OpenAPI |
 
 ## Investigación académica
